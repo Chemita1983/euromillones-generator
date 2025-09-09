@@ -1,4 +1,4 @@
-package main
+package euromillongenerator
 
 import (
 	"fmt"
@@ -8,11 +8,7 @@ import (
 var principales [5]int
 var estrellas [2]int
 
-func main() {
-	EuromGenerator()
-}
-
-func EuromGenerator() {
+func EuroMillonGenerator() {
 
 	fmt.Println("Numeros generados para el €uroMillones")
 
